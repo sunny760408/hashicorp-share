@@ -24,15 +24,15 @@ job "http-echo" {
       service {
         name ="http-echo"  
         port = "http"
-        tag = ["http-echo-demo"]
-      }
-      
-      check {
+        tags = ["http-echo-demo"]
+
+        check {
           type     = "http"
           path     = "/health"
           interval = "2s"
           timeout  = "2s"
         }
+      }
     }
   }
 }

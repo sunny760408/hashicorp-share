@@ -2,7 +2,7 @@ job "http-echo" {
   datacenters = ["dc1"]
 
   group "echo" {
-    count = 1
+    count = 5
     network {
       port "http" {
       }

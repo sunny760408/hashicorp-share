@@ -15,14 +15,14 @@ job "http-echo" {
           "hello world mother'day. ",
         ]
       }
-      resources {
-        network {
-          mbits = 10
-          port "http" {
-          static = "8080"
-          }
+
+      network {
+        mbits = 10
+        port "http" {
+        static = "8080"
         }
       }
+
     }
   }
 }

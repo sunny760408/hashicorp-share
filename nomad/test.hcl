@@ -1,4 +1,3 @@
-  
 job "http-echo" {
   datacenters = ["dc1"]
 
@@ -7,16 +6,22 @@ job "http-echo" {
     network {
       mode = "bridge"
       port "http" {
-        static = 8080
-        to     = 8080
+        static = "8080"
+        to = "8080"
       }
     }
     task "server" {
       driver = "docker"
 
       config {
-        image = "nginx:1.18-alpine"
+        image = "hashicorp/http-echo"
         ports = ["http"]
+        args = [
+          "-listen",
+          ":8080",
+          "-text",
+          "hello mother's day. ",
+        ]
       }
     }
   }

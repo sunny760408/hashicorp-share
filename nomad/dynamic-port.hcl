@@ -12,6 +12,7 @@ job "http-echo" {
 
       config {
         image = "hashicorp/http-echo"
+        ports = ["http"]
         args = [
           "-listen",
           ":${NOMAD_PORT_http}",

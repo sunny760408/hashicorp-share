@@ -7,7 +7,7 @@ job "http-echo" {
       driver = "docker"
 
       config {
-        image = "hashicorp/http-echo:last"
+        image = "hashicorp/http-echo"
         args = [
           "-listen",
           ":8080",

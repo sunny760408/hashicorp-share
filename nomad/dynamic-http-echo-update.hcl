@@ -21,7 +21,7 @@ job "http-echo" {
           "-listen",
           ":${NOMAD_PORT_http}",
           "-text",
-          "hello world. IP: ${NOMAD_IP_http}, PORT: ${NOMAD_PORT_http}",
+          "hello world update test. IP: ${NOMAD_IP_http}, PORT: ${NOMAD_PORT_http}",
         ]
       }
     }

@@ -3,6 +3,11 @@ job "http-echo" {
 
   group "echo" {
     count = 1
+    network {
+      port "http" {
+      static = "8080"
+      }
+    }
     task "server" {
       driver = "docker"
 
@@ -15,14 +20,6 @@ job "http-echo" {
           "hello world mother'day. ",
         ]
       }
-
-      network {
-        mbits = 10
-        port "http" {
-        static = "8080"
-        }
-      }
-
     }
   }
 }

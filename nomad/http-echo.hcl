@@ -17,7 +17,7 @@ job "http-echo" {
           "-listen",
           ":8080",
           "-text",
-          "hello world mother'day. ",
+          "hello mother's day. ",
         ]
       }
     }

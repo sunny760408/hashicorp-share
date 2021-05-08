@@ -8,7 +8,6 @@ job "http-echo" {
 
       config {
         image = "hashicorp/http-echo:last"
-        ports = ["http"]
         args = [
           "-listen",
           ":8080",

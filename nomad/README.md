@@ -9,5 +9,7 @@ $ unzip nomad_1.0.4_linux_amd64.zip
 # Running Nomad
 **Don't use in production.**
 ```
-$ nomad agent -dev -bind 0.0.0.0 -log-level INFO
+$ nomad agent -dev -bind 0.0.0.0 -log-level INFO -config=<(echo 'client {options = {"driver.allowlist" = "docker,qemu,raw_exec,exec"}}')
 ```
+
+

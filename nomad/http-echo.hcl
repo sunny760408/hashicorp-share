@@ -15,7 +15,7 @@ job "http-echo" {
         image = "hashicorp/http-echo"
         args = [
           "-listen",
-          "0.0.0.0:8080",
+          ":8080",
           "-text",
           "hello world mother'day. ",
         ]

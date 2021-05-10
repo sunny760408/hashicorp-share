@@ -1,15 +1,10 @@
-# Download
-* https://www.nomadproject.io/downloads
+# 2021/05/09 14:15~16:00
+【Topic】: Introduction to HashiCorp Nomad <br/>
+【Speaker】: Chinghsiang Su
+【Location】: Mozilla Community Space Taipei / 台北市中正區八德路一段94號3樓 <br/>
+【Price】: **Free** <br/>
+【Link】: https://opensuse-tw.kktix.cc/events/fa53c07d
 
-# Installation
-```
-$ unzip nomad_1.0.4_linux_amd64.zip
-```
 
-# Running Nomad
-**Don't use in production.**
-```
-$ nomad agent -dev -bind 0.0.0.0 -log-level INFO -config=<(echo 'client {options = {"driver.allowlist" = "docker,qemu,raw_exec,exec"}}')
-```
 
 

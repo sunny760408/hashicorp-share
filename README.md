@@ -14,4 +14,4 @@
 * Q & A
 
 
-![image](20210509/image.JPG)
+![image](nomad/20210509/image.JPG)

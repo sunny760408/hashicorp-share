@@ -2,7 +2,7 @@
 【Topic】: Introduction to HashiCorp Nomad <br/>
 【Speaker】: Chinghsiang Su <br/>
 【Location】: Mozilla Community Space Taipei / 台北市中正區八德路一段94號3樓 <br/>
-【S】: Mozilla Taiwan, openSUSE Taiwan <br/>
+【Support】: Mozilla Taiwan, openSUSE Taiwan <br/>
 【Price】: **Free** <br/>
 【Link】: https://opensuse-tw.kktix.cc/events/fa53c07d <br/>
 【Agenda】:
